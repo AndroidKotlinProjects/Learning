@@ -27,6 +27,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.observe
 import com.example.android.advancedcoroutines.PlantListViewModel
 import com.example.android.advancedcoroutines.PlantRepository
@@ -34,6 +35,8 @@ import com.example.android.advancedcoroutines.R
 import com.example.android.advancedcoroutines.databinding.FragmentPlantListBinding
 import com.example.android.advancedcoroutines.utils.Injector
 import com.google.android.material.snackbar.Snackbar
+import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.launch
 
 class PlantListFragment : Fragment() {
 
@@ -84,8 +87,11 @@ class PlantListFragment : Fragment() {
         }
     }
 
-    private fun subscribeUi(adapter: PlantAdapter) {
-        viewModel.plants.observe(viewLifecycleOwner) { plants ->
+    private fun subscribeUi(adapter: PlantAdapter) = lifecycleScope.launch {
+//        viewModel.plants.observe(viewLifecycleOwner) { plants ->
+//            adapter.submitList(plants)
+//        }
+        viewModel.plantsFlow.collect { plants ->
             adapter.submitList(plants)
         }
     }

@@ -22,6 +22,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.switchMap
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Job
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch
 
 /**
@@ -70,9 +71,12 @@ class PlantListViewModel internal constructor(
         }
     }
 
+    val plantsFlow: Flow<List<Plant>> = plantRepository.plantsFlow
+
     init {
         // When creating a new ViewModel, clear the grow zone and perform any related udpates
         clearGrowZoneNumber()
+        launchDataLoad { plantRepository.tryUpdateRecentPlantsCache() }
     }
 
     /**

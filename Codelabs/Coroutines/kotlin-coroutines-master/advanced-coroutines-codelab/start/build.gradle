@@ -43,4 +43,6 @@ dependencies {
 
     testImplementation testLibraries
     androidTestImplementation androidTestLibraries
+
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0"
 }
