@@ -91,7 +91,7 @@ class PlantListFragment : Fragment() {
 //        viewModel.plants.observe(viewLifecycleOwner) { plants ->
 //            adapter.submitList(plants)
 //        }
-        viewModel.plantsFlow.collect { plants ->
+        viewModel.plantsFlowFilteredByGrowZone.collect { plants ->
             adapter.submitList(plants)
         }
     }

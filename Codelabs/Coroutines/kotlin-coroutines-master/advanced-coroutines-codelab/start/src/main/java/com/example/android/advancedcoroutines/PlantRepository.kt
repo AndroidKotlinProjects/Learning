@@ -74,6 +74,11 @@ class PlantRepository private constructor(
             this@applyMainSafeSort.applySort(customSortOrder)
         }
 
+    /* This is the complicated version that doesn't leverage using suspend functions in flow
+    * operators. It is faster though because the customSortFlow (which makes a call to
+    * plantsListSortOrderCache.getOrAwait() can run concurrent with the database query).
+    * i.e. the fetching of the custom sort order from the network and the retrieval of the flow
+    * of plants from the database can happen concurrently. */
     val plantsFlow: Flow<List<Plant>>
         get() = plantDao.getPlantsFlow()
             .combine(customSortFlow) { plants, sortOrder ->
@@ -82,8 +87,20 @@ class PlantRepository private constructor(
             .flowOn(defaultDispatcher)
             .conflate()
 
+    /* This is the simple version. It only needs to call the map operator and that's it because
+    * it utilises the fact that you can call suspend functions inside flow operators. When the
+    * plants list flow is returned from the database, we then either get the cached plants sort
+    * order or get it from the network if it's not cached, then apply the sort with our apply
+    * function on the default worker thread. The trade-off for this simplicity is that the
+    * fetching of the plants flow from the database and the fetching of the sort order don't
+    * happen in parrallel like in the above approach. */
     fun getPlantsWithGrowZoneFlow(growZoneNumber: GrowZone): Flow<List<Plant>> {
         return plantDao.getPlantsWithGrowZoneNumberFlow(growZoneNumber.number)
+            .map { plantList ->
+                val sortOrderFromNetwork = plantsListSortOrderCache.getOrAwait()
+                val nextValue = plantList.applyMainSafeSort(sortOrderFromNetwork)
+                nextValue
+            }
     }
 
     private val customSortFlow = flow {

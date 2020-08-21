@@ -33,4 +33,5 @@ class WordViewModel(application: Application): AndroidViewModel(application) {
         super.onCleared()
         println("debug: viewmodel onCleared was called!")
     }
+
 }
