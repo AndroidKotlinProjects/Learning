@@ -1,37 +1,20 @@
+import Components.Active.TimedSets
+import Components.Active.WeightedSets
+import Components.Component
+import Components.Rest.CountdownTimer
 
 fun main() {
 
-    val benchPress = Exercise("Bench press")
-    val squat = Exercise("squat")
-    val deadlift = Exercise("deadlift")
-    val shldrPress = Exercise("Shoulder press")
-    val pullUps = Exercise("Pull-ups")
+    var weightedSet: Component = WeightedSets(5, 70.toDouble(), Metrics.kilograms)
+    var countdownTimer: Component = CountdownTimer(60)
+    var benchComponents: MutableList<Component> = mutableListOf(weightedSet, countdownTimer, weightedSet, countdownTimer, weightedSet, countdownTimer)
+    var benchPress: Exercise = Exercise("Bench press", WorkoutTypes.strength, benchComponents)
 
-    val quadStretch = Exercise("Quad stretch")
-    val hammyStretch = Exercise("Hamstring stretch")
-    val calveStretch = Exercise("Calf stretch")
+    var timedSet: Component = TimedSets(numReps = 2, seconds = 120)
+    var quadStretchComponents: MutableList<Component> = mutableListOf(timedSet, countdownTimer, timedSet, countdownTimer)
+    var quadStretch: Exercise = Exercise("Quad stretch", WorkoutTypes.mobility, quadStretchComponents)
 
-    val strengthRoutineA = Routine("Strength A")
-    strengthRoutineA.addExercises(listOf(benchPress, squat, deadlift))
-    val strengthRoutineB = Routine("Strength B")
-    strengthRoutineB.addExercises(listOf(shldrPress, pullUps))
-    val upperDay = Routine("Upper")
-    val lowerDay = Routine("Lower")
-    val pushDay = Routine("Push")
-    val pullDay = Routine("Pull")
-    val generalStretch = Routine("Basic stretch")
-    generalStretch.addExercises(listOf(quadStretch, hammyStretch, calveStretch))
-    val fullBodyStretchRoutine = Routine("Full-body stretch")
-
-    val routineA = Routine("A", mutableListOf(generalStretch, strengthRoutineA))
-    val routineB = Routine("B", mutableListOf(generalStretch, strengthRoutineB))
-
-    println("performing routine A")
-    routineA.start()
-    println("routine A finished!\n")
-
-    println("performing routine B")
-    routineB.start()
-    println("routine B finished!\n")
+    val routine: Routine = Routine("Strength routine", exercises = mutableListOf(quadStretch, benchPress))
+    routine.start()
 
 }

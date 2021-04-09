@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/feed_dest"
+        android:title="feed"
+        android:icon="@drawable/ic_feed">
+    </item>
+
+    <item
+        android:id="@+id/exercises_dest"
+        android:title="exercises"
+        android:icon="@drawable/ic_exercises">
+    </item>
+
+    <item
+        android:id="@+id/routines_dest"
+        android:title="routines"
+        android:icon="@drawable/ic_routines">
+    </item>
+
+</menu>

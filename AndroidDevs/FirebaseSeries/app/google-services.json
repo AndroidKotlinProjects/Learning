@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "121939831260",
+    "firebase_url": "https://androiddevsseries.firebaseio.com",
+    "project_id": "androiddevsseries",
+    "storage_bucket": "androiddevsseries.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121939831260:android:3e499b8618a35e20e04719",
+        "android_client_info": {
+          "package_name": "com.littleboysoftware.firebasesample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121939831260-a80b00695tne7piha4rhi6pt9tgqhmja.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.littleboysoftware.firebasesample",
+            "certificate_hash": "84427ad302ce35760cfb56fb83c7f0b8b61b0048"
+          }
+        },
+        {
+          "client_id": "121939831260-5t1uq6viq99vtlupu0fsp97npqmiu6te.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrWIOtUqwwfH7eJ1r4zoXmS8g1nuMRKuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121939831260-5t1uq6viq99vtlupu0fsp97npqmiu6te.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="99a681df-308e-4594-8d62-ed3099ad73e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../AndroidDevs/ExerciseTracker/app/src/main/java/com/littleboysoftware/exercisetracker/exercises/ExercisesFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDevs/ExerciseTracker/app/src/main/java/com/littleboysoftware/exercisetracker/feed/FeedFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDevs/ExerciseTracker/app/src/main/java/com/littleboysoftware/exercisetracker/routines/RoutinesFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDevs/ExerciseTracker/app/src/main/res/drawable/ic_exercises.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDevs/ExerciseTracker/app/src/main/res/drawable/ic_feed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDevs/ExerciseTracker/app/src/main/res/drawable/ic_routines.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDevs/ExerciseTracker/app/src/main/res/layout/exercises.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDevs/ExerciseTracker/app/src/main/res/layout/fragment_placeholder.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDevs/ExerciseTracker/app/src/main/res/menu/bottom_nav_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDevs/ExerciseTracker/app/src/main/res/navigation/main_nav.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDevs/FirebaseSeries/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Codelabs/Compose/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Codelabs/Compose/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Codelabs/Room/RoomWithAView/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodingWithMitch/hilt/app/src/main/java/com/littleboysoftware/hiltintroduction/MyApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/.idea/LearningKotlin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/lib/kotlin-reflect-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/lib/kotlin-reflect.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/lib/kotlin-stdlib-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/lib/kotlin-stdlib.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/lib/kotlin-test-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/lib/kotlin-test.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/sealed_classes/currency_converter_app/SealedClass-Materials/currency-starter/.idea/currency-starter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/src/main/kotlin/collections/Associate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/src/main/kotlin/collections/Filter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/src/main/kotlin/collections/Flatten.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/src/main/kotlin/collections/Iterators.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/src/main/kotlin/collections/Library.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/src/main/kotlin/collections/Map.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/src/main/kotlin/collections/Zip.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearningKotlin/src/main/kotlin/scopeFunctions/apply.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/src/main/kotlin/Components/Active/Set.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/src/main/kotlin/Components/Component.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/src/main/kotlin/Components/Rest/Timer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/kotlin/main/META-INF/kotlin].kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/Associate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/Filter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/Flatten.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/Grouping.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/Iterators.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/Library.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/Map.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/Partition.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/Reduce.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/Sequence.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/SortedBy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/Zip.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/AndroidDevsYoutube/1_FirstCoroutine.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/AndroidDevsYoutube/2_AdditiveDelays.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/AndroidDevsYoutube/3_ContextViaDispatchers.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/AndroidDevsYoutube/4_ChangingContext.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/AndroidDevsYoutube/5_Parallel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/AndroidDevsYoutube/6_UncooperativeCancel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/AndroidDevsYoutube/7_CooperativeCancel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/AndroidDevsYoutube/8_AsyncBuilderAndAwait.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/CancellationAndTimeouts/1_CancellingCoroutines.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/CancellationAndTimeouts/2_UncooperativeCancel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/CancellationAndTimeouts/3_CooperativeCancel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/CancellationAndTimeouts/4_CloseResourcesInFinally.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/CancellationAndTimeouts/5_WithContextNonCancellable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/CancellationAndTimeouts/6_WithTimeout.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/CancellationAndTimeouts/7_CleanUpOnTimeout.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Channels/10_Ticker.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Channels/1_Basics.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Channels/2_IteratingAndClosingChannels.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Channels/3_ProducerConsumer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Channels/4_Pipelines.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Channels/5_Primes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Channels/6_FanOut.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Channels/7_FanIn.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Channels/8_BufferedChannels.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Channels/9_ChannelsAreFair.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/ContextAndDispatchers/10_CoroutineScope.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/ContextAndDispatchers/11_ThreadLocalData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/ContextAndDispatchers/1_CoroBuildersHaveDispatcherParameter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/ContextAndDispatchers/2_ConfinedVsUnconfined.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/ContextAndDispatchers/3_DebuggingCoroutines.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/ContextAndDispatchers/4_ThreadJumping.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/ContextAndDispatchers/5_JobInsideContext.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/ContextAndDispatchers/6_CancellationPropagation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/ContextAndDispatchers/7_JoiningChildrenIsAutomatic.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/ContextAndDispatchers/8_CoroutineName.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/ContextAndDispatchers/9_MultipleContextParameters.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/10_SizeLimitingOperators.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/11_TerminalOperators.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/12_FlowsAreSequential.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/13_CoroContextConservation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/14_WrongEmissionFromWithContext.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/15_FlowOn.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/16_Buffering.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/17_Conflation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/18_TerminalOperatorLatest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/19_ZipComposer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/1_ReturningMultipleValuesWithList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/20_CombineComposer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/21_FlatMapConcat.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/22_FlatMapMerge.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/23_FlatMapLatest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/24_ExceptionsWithTryCatch.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/25_EverythingIsCaught.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/26_ExceptionTransparency.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/27_CatchOperatorFacesUpstream.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/28_CatchOnEachToSolveOnlyUpstream.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/29_FinallyBlockOnCompletion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/2_ReturningMultipleValuesWithSequence.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/30_OnCompletionOperator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/31_OnCompletionDoneOrException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/32_SuccessfulCompletion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/33_WaitForFlowCompletion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/34_LaunchInTerminalOperator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/35_CancellableOnEmission.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/3_AsynchronouslyReturningList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/4_ReturningSeqOfValuesAsyncWithFlow.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/5_FlowsAreCold.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/6_FlowCancellationIsCooperative.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/7_FlowBuilders.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/8_IntermediateOperators.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/Flow/9_TransformOperator.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/SuspendFunctions/1_SequentialByDefault.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/SuspendFunctions/2_ConcurrentWithAsync.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/SuspendFunctions/3_LazyAsync.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/SuspendFunctions/4_BadStyleAsync.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/SuspendFunctions/5_StructuredConcurrencyAsync.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/SuspendFunctions/6_PropogatedCancellation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/basics/10_ExtractedLaunchOnScope.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/basics/11_YeahBuddyLightWeightAintNuthinButAPeanut.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/basics/1_YourFirstCoroutine.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/basics/2_ThreadVersion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/basics/3_BlockingAndNonBlocking.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/basics/4_WrappingFunctions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/basics/5_JobJoining.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/basics/6_LeaveMeHanging.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/basics/7_ThePowerOfScoping.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/basics/8_BlockingVsSuspending.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/basics/9_SuspendingAndNormal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/basics/GlobalScopeCorosAreDaemons.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/playground/BlockingVsSuspending2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/playground/FlowInOneMinute.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/playground/GlobalScopeParent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/playground/ReturningFromSuspends.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/playground/RunBlockingInsideCoroutine.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/coroutines/playground/TrySuspendInFinally.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functional/intro_article/01_functionalVsNonFunctional.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functional/intro_article/02_mapAndReduceOverIteration.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functional/intro_article/03_nonFunctionalCarRace.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functional/intro_article/04_functionalCarRace.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functional/intro_article/05_recursionOverIteration.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functional/uncle_bob_fp_what_why_when.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/recursion/computerphile_what_is_recursion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/recursion/reducible_five_simple_steps_to_solve_any_recursion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/scopeFunctions/also.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/scopeFunctions/let.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codelabs/Compose/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Codelabs/Compose/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codelabs/Compose/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Codelabs/Compose/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codelabs/Compose/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Codelabs/Compose/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codelabs/Compose/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Codelabs/Compose/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codelabs/Compose/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Codelabs/Compose/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codelabs/Room/RoomWithAView/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Codelabs/Room/RoomWithAView/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Codelabs/Room/RoomWithAView/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Codelabs/Room/RoomWithAView/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVI/SampleApps/CWMFlowsAndChannels/Flows-and-Channels" beforeDir="false" afterPath="$PROJECT_DIR$/../MVI/SampleApps/CWMFlowsAndChannels/Flows-and-Channels" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/classes/kotlin/main/Exercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/classes/kotlin/main/Exercise.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/classes/kotlin/main/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/classes/kotlin/main/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/src/main/kotlin/Exercise.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/src/main/kotlin/Exercise.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Playground/ExerciseTrackerDomain/src/main/kotlin/main.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1orT5sR5QnOjH4JbDf9nC3MssZG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="N:\AppDev\KotlinAppDev\Learning\kotlin\src\main\kotlin\recursion" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.Computerphile_what_is_recursionKt">
+    <configuration name="Computerphile_what_is_recursionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlin].main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="recursion.Computerphile_what_is_recursionKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="Reducible_five_simple_steps_to_solve_any_recursionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlin].main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="recursion.Reducible_five_simple_steps_to_solve_any_recursionKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="TempKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlin].main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="functional.intro_article.TempKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="Uncle_bob_fp_what_why_whenKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlin].main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="functional.Uncle_bob_fp_what_why_whenKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="_05_recursionOverIterationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="kotlin].main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="functional.intro_article._05_recursionOverIterationKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="kotlin" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.Computerphile_what_is_recursionKt" />
+        <item itemvalue="Kotlin.Uncle_bob_fp_what_why_whenKt" />
+        <item itemvalue="Kotlin.Reducible_five_simple_steps_to_solve_any_recursionKt" />
+        <item itemvalue="Kotlin.TempKt" />
+        <item itemvalue="Kotlin._05_recursionOverIterationKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99a681df-308e-4594-8d62-ed3099ad73e4" name="Default Changelist" comment="" />
+      <created>1614043529968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614043529968</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1032" y="181" key="#Project_Structure" timestamp="1614043557687">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1614043557687" />
+    <state x="1219" y="278" key="FileChooserDialogImpl" timestamp="1616202180272">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1219" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1616202180272" />
+    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1615186957617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615186957617" />
+    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1615186957617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615186957617" />
+    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1615186957617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615186957617" />
+    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1615186957617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615186957617" />
+    <state x="880" y="97" key="SettingsEditor" timestamp="1614044151566">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="880" y="97" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614044151566" />
+    <state x="1147" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1616201781865">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1147" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616201781865" />
+    <state x="1010" y="138" key="new project wizard" timestamp="1616202211740">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1010" y="138" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1616202211740" />
+    <state x="1102" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1614128827619">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1102" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614128827619" />
+  </component>
+</project>

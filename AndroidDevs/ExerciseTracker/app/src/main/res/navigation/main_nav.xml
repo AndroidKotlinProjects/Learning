@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/feed_dest">
+    <fragment
+        android:id="@+id/feed_dest"
+        android:name="com.littleboysoftware.exercisetracker.feed.FeedFragment"
+        android:label="FeedFragment" />
+    <fragment
+        android:id="@+id/exercises_dest"
+        android:name="com.littleboysoftware.exercisetracker.exercises.ExercisesFragment"
+        android:label="ExercisesFragment" />
+    <fragment
+        android:id="@+id/routines_dest"
+        android:name="com.littleboysoftware.exercisetracker.routines.RoutinesFragment"
+        android:label="RoutinesFragment" />
+</navigation>
